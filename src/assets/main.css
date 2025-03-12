@@ -1,8 +1,16 @@
+:root {
+  --main-grey: #E0E0E0;
+  --main-lightgrey: #E0E0E0;
+  --main-yellow: #FFCC80;
+  --main-brown: #A1887F;
+  --main-darkbrown: #795548;
+}
+
 * {
   margin: 0;
   padding: 0;
 }
 
 body {
-  background: #E0E0E0;
+  background: var(--main-grey);
 }
