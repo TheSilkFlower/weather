@@ -1,6 +1,6 @@
 :root {
   --main-grey: #E0E0E0;
-  --main-lightgrey: #E0E0E0;
+  --main-lightgrey: #EEEEEE;
   --main-yellow: #FFCC80;
   --main-brown: #A1887F;
   --main-darkbrown: #795548;
@@ -12,5 +12,13 @@
 }
 
 body {
-  background: var(--main-grey);
+  width: 100%;
+  height: 100vh;
+}
+
+#app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
